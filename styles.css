@@ -103,3 +103,77 @@ figcaption{
     text-align: center;
     color: var(--primary-text);
 }
+
+/* Flexbox setup padres*/
+
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.hero,
+.info,
+.quo,
+.cta,
+.footer{    
+    display: flex;
+}
+
+/* Propiedades Flex Padres */
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    gap: 32px;
+}
+
+.info{
+    justify-content: center;
+    gap: 40px;
+}
+
+.quo{
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+}
+
+/* Flex hijos con propiedades */
+
+ul,
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 16px;
+    align-items: center;
+}
+
+.hero-text{
+    flex:1;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-img{
+    flex: 1;
+    width: auto;
+    background-color: #808080);
+}
+
