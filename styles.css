@@ -42,7 +42,7 @@ img{
 
 /* Styles  */
 body{
-    font-family: var(--main-font)   ;
+    font-family: var(--main-font);
 }
 
 .header,
@@ -57,6 +57,49 @@ body{
     font-weight: var(--weight-heavy);
 }
 
-.hero-text{
-    
+.hero-text,
+.links{
+    font-size: var(--hero-seco);
+    color: var(--secondary-text);
+}
+
+.logo{
+    font-size: var(--header-logo);
+    color: var(--logo-text);
+}
+
+.hero-button,
+.cta-button,
+.cta{
+    background-color: var(--cta-button);
+    color: var(--secondary-text);
+}
+
+.info-title{
+    font-size: var(--info-head);
+    color: var(--soft-text);
+    font-weight: var(--weight-heavy);
+    text-align: center;
+}
+
+.quo{
+    background-color: var(--quote-back);
+
+}
+
+blockquote{
+    font-size: var(--quote-text);
+    color: var(--background-color);
+    font-weight: var(--weight-light);
+    font-style: italic;
+}
+
+figcaption{
+    font-weight: var(--weight-heavy);
+    text-align: right;
+}
+
+.footer{
+    text-align: center;
+    color: var(--primary-text);
 }
