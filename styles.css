@@ -1,0 +1,62 @@
+:root{
+    /* Colors */
+    --background-color: #1f2937;  /*Header, Hero, Footer BG */
+    --primary-text: #F9FAF8; /*Background Color Title */
+    --secondary-text: #E5E7EB; /*Header list and Hero Secondary */
+    --logo-text:var(--primary-text); /*Logo color */
+    --cta-button: #3882f6; /*CTA and Button Color */
+    --soft-text: var(--background-color); /* Info and Quote Text */
+    --quote-back: var(--secondary-text); /*Quote BG*/
+
+    /* Fonts */
+    --main-font: 'Roboto', sans-serif;
+    --hero-size: 48px;
+    --hero-seco: 18px;
+    --header-logo: 24px;
+    --info-head: 36px;
+    --quote-text: 36px;
+    --weight-heavy: 900;
+    --weight-light: 300;
+}
+
+/* CSS Resets, Ul, A and Img */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Styles  */
+body{
+    font-family: var(--main-font)   ;
+}
+
+.header,
+.hero,
+.footer{
+    background-color: var(--background-color);
+}
+
+.hero-title{
+    font-size: var(--hero-size);
+    color: var(--primary-text);
+    font-weight: var(--weight-heavy);
+}
+
+.hero-text{
+    
+}
