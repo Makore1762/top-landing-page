@@ -14,11 +14,11 @@ Construir una interfaz web completa traduciendo una especificación de diseño v
 
 ## Demo
 > [!IMPORTANT]
-> **Nota de diseño:** A diferencia del proyecto anterior (Recipes), este proyecto integra CSS desde el inicio para lograr una experiencia visual completa y responsiva.
+> **Nota de diseño:** A diferencia del proyecto anterior (Recipes), este proyecto integra CSS desde el inicio para lograr una experiencia visual completa y fluida.
 
 Puedes ver el resultado en vivo aquí: [Enlace a GitHub Pages]
 
----
+---     
 
 ## Tecnologías y Herramientas
 
